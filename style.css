@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(-45deg, #0c0c0c, #220377, #02143f, #4e0101);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 90vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.imposter {
+  width: 7vh;
+  height: 5vh;
+  position: absolute;
+  background-image: url("/7web.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  display: flex;
+  flex-flow: row;
+}
