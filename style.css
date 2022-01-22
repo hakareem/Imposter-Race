@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(-45deg, #0c0c0c, #220377, #02143f, #4e0101);
+  background: linear-gradient(-45deg, #801414, #d0ceee);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 90vh;
@@ -20,13 +20,21 @@ body {
 .imposter {
   width: 7vh;
   height: 5vh;
+  height:6vh;
   position: absolute;
-  background-image: url("/7web.png");
+  background-image: url("i.png");
   background-size: contain;
   background-repeat: no-repeat;
-}
+} 
 
+
+h1{
+  text-align: center;
+  /* border: 1px solid; */
+}
 .btn {
   display: flex;
   flex-flow: row;
+  color: aqua;
+  background-color: black;
 }
